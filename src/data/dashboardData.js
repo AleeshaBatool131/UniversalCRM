@@ -58,7 +58,7 @@ export const revenueData = [
 export const recentActivity = [
   {
     id: 1,
-    user: "Ayesha Khan",
+    user: "Amelia Carter",
     action: "closed a deal with",
     target: "Northwind Traders",
     time: "8 min ago",
@@ -67,7 +67,7 @@ export const recentActivity = [
   },
   {
     id: 2,
-    user: "Hamza Ahmed",
+    user: "Daniel Reyes",
     action: "added a new lead",
     target: "Bluepeak Logistics",
     time: "34 min ago",
@@ -76,7 +76,7 @@ export const recentActivity = [
   },
   {
     id: 3,
-    user: "Fatima Ali",
+    user: "Priya Nair",
     action: "scheduled a meeting with",
     target: "Orbit Manufacturing",
     time: "1 hr ago",
@@ -94,7 +94,7 @@ export const recentActivity = [
   },
   {
     id: 5,
-    user: "Usman Malik",
+    user: "Marcus Lee",
     action: "updated the profile of",
     target: "Sienna Coffee Co.",
     time: "3 hr ago",
@@ -103,9 +103,9 @@ export const recentActivity = [
   },
   {
     id: 6,
-    user: "Sara Iqbal",
+    user: "Olivia Brooks",
     action: "onboarded a new employee,",
-    target: "Bilal Hussain",
+    target: "Jordan Pike",
     time: "5 hr ago",
     icon: "fa-solid fa-id-badge",
     color: "text-brand-600 bg-brand-50",
@@ -156,8 +156,8 @@ export const notifications = [
 ];
 
 export const currentUser = {
-  name: "Sana Ahmed",
+  name: "Sarah Whitfield",
   role: "Sales Operations Manager",
-  email: "sana.ahmed@universalcrm.com",
-  avatarInitials: "SA",
+  email: "sarah.whitfield@universalcrm.com",
+  avatarInitials: "SW",
 };
