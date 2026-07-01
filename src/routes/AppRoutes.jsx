@@ -8,6 +8,10 @@ import AddCustomer from "../pages/Customers/AddCustomer.jsx";
 import CustomerProfile from "../pages/Customers/CustomerProfile.jsx";
 import LeadManagement from "../pages/Leads/LeadManagement.jsx";
 import AddLead from "../pages/Leads/AddLead.jsx";
+import EmployeeList from "../pages/Employees/EmployeeList.jsx";
+import EmployeeProfile from "../pages/Employees/EmployeeProfile.jsx";
+import TaskList from "../pages/Tasks/TaskList.jsx";
+import CreateTask from "../pages/Tasks/CreateTask.jsx";
 
 export default function AppRoutes() {
   return (
@@ -24,8 +28,13 @@ export default function AppRoutes() {
       <Route path="/leads" element={<LeadManagement />} />
       <Route path="/leads/add" element={<AddLead />} />
 
-      {/* Day 3+: employees, tasks, meetings, calendar,
-          reports, notifications, settings, user profile */}
+      <Route path="/employees" element={<EmployeeList />} />
+      <Route path="/employees/:id" element={<EmployeeProfile />} />
+
+      <Route path="/tasks" element={<TaskList />} />
+      <Route path="/tasks/create" element={<CreateTask />} />
+
+      {/* Day 4+: meetings, calendar, reports, notifications, settings */}
       <Route path="*" element={<Navigate to="/login" replace />} />
     </Routes>
   );
